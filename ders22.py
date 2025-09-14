@@ -13,10 +13,11 @@ class Employe:
         
     def __len__(self):
         return len(self.fullname())
-emp1=Employe("Enes","Menal",50000)
+emp1=Employe("Kazım","Usta",50000)
 emp2=Employe("Test","User",60000)
 print(emp1.pay)
 emp1.apply_raise()
 print(emp1.pay)
 print(len(emp1))
+
 print(len(emp2))
