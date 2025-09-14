@@ -8,7 +8,7 @@ class Employe:
     def fullname(self):
         return "{}{}".format(self.firstname,self.lastname)
 
-emp1=Employe("Enes","Menal",50000)
+emp1=Employe("Kazım","Usta",50000)
 emp2=Employe("Test","User",60000)
 #print(emp1)
 #print(emp2)
@@ -17,6 +17,7 @@ emp2=Employe("Test","User",60000)
 
 print(emp1.email)
 print(emp2.email)
-print("{}{}".format(emp1.firstname,emp1.lastname))  #EnesMenal
-print(emp1.fullname())                              #EnesMenal
-print(Employe.fullname(emp1))                       #EnesMenal
+print("{}{}".format(emp1.firstname,emp1.lastname))  #KazımUsta
+print(emp1.fullname())                              #KazımUsta
+
+print(Employe.fullname(emp1))                       #KazımUsta
